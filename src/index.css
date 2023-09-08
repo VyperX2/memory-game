@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.container {
+	@apply mx-auto max-w-sm    md:max-w-[768px] lg:max-w-[1024px] 2xl:max-w-[1536px] sm:px-16 px-6;
+}
+
+.section {
+	@apply sm:mt-20 mt-8;
+}
+
+body {
+	background-color: #020617;
+}
+
+body {
+	color: #9ca3af;
+}
+
